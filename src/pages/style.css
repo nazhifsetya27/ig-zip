@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.container-main {
+  max-width: 390px;
+  height: 812px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.notif-bar {
+  height: 44px;
+  /* border: 2px solid red; */
+}
+
+.ig-logo {
+  margin-bottom: 24px;
+}
+
+.input {
+  width: 312px;
+  height: 40px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+  border: 0.5px solid #c5c5c5;
+  background: #eee;
+}
+
+.input-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden-svg {
+  position: absolute;
+  margin-left: 275px;
+  padding-bottom: 13px;
+}
+
+.sign-up button {
+  width: 320px;
+  height: 40px;
+  border-radius: 4px;
+  background: rgba(24, 119, 242, 0.6);
+  color: white;
+  border: none;
+  margin-bottom: 14px;
+}
+
+.sign-up .text {
+  opacity: 0.4;
+  font-weight: 400;
+}
+
+.sign-up .text:hover {
+  opacity: 1;
+  color: white;
+}
+
+.sign-up button:hover {
+  cursor: pointer;
+  background: #1877f2;
+  opacity: 1;
+}
+
+.ensure {
+  width: 180px;
+  height: 10px;
+  color: #6d6d6d;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 63px;
+  display: flex;
+  align-items: center;
+}
+
+.ensure button:hover {
+  background: #78a0d5;
+  cursor: pointer;
+  transition: 0.4s;
+  color: white;
+}
+
+.sign-in {
+  color: #23244f;
+  border: none;
+  font-size: 10px;
+  background: white;
+}
+
+.container-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 32px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.line1,
+.line2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.or {
+  color: #6d6d6d;
+  font-size: 12px;
+}
+
+.sign-up-with-fb button {
+  width: 320px;
+  height: 40px;
+  border-radius: 4px;
+  background: #1877f2;
+  color: white;
+  border: none;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-with-fb button:hover {
+  cursor: pointer;
+}

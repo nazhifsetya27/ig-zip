@@ -1,0 +1,33 @@
+.CONTAINER {
+    width: 375px;
+    height: 812px;
+    border: 1px solid grey;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.namaAkun {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.titikTiga {
+    margin-left: 200px;
+}
+
+/* flex2 */
+.flex2 {
+    width: 375;
+    height: 89px;
+    border: 1px solid red;
+}
+
+.pp {
+    width: 89px;
+    height: 89px;
+    border: 1px solid red;
+}
